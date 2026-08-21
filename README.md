@@ -1,11 +1,25 @@
 # bank-data-transmission
 Automating daily/weekly/monthly posting and settlement data feeds to banks via Visa NDM or SFTP.
 
-Steps:
--Document the workflow: posting → settlement → data extraction → transmission.
+# Objective
+Simulate posting and settlement data transmission from DES systems to banks via secure channels (Visa NDM / SFTP).
 
--Create a sample ETL pipeline (e.g., Python + SQL) that simulates extracting transaction data, transforming into required format (CSV/XML), and uploading to a mock SFTP server.
+# Workflow
+1. Extract posting & settlement data (mock dataset).
+2. Transform into required format (CSV/XML).
+3. Transmit securely to a mock SFTP server.
+4. Log success/failure and generate compliance audit trail.
 
--Add logging & error handling to show resilience.
+# Tech Stack
+- Python (ETL scripts)
+- SQL (reconciliation queries)
+- Paramiko (SFTP simulation)
+- Logging module for error handling
 
--Include a README.md explaining compliance considerations (PCI DSS, GDPR).
+# KPIs
+- Transmission success rate
+- Error reduction %
+- SLA adherence
+
+# Business Impact
+Ensures secure, timely delivery of settlement data to banks, reducing reconciliation errors and improving compliance.
