@@ -1,0 +1,11 @@
+TransactionID,Amount,Status,PostingDate,SettlementDate,BankCode
+1001,250.00,Posted,2026-08-01,2026-08-02,HSBC
+1002,120.50,Settled,2026-08-01,2026-08-01,Barclays
+1003,89.99,Posted,2026-08-02,,Citi
+1004,560.75,Settled,2026-08-02,2026-08-03,Deutsche
+1005,310.40,Posted,2026-08-03,,Santander
+1006,450.00,Settled,2026-08-03,2026-08-03,BNP
+1007,99.99,Posted,2026-08-04,,Lloyds
+1008,780.25,Settled,2026-08-04,2026-08-05,HSBC
+1009,150.00,Posted,2026-08-05,,Citi
+1010,200.00,Settled,2026-08-05,2026-08-06,Barclays
