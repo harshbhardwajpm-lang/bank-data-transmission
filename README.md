@@ -6,7 +6,7 @@ Simulate posting and settlement data transmission from DES systems to banks via 
 
 # Workflow
 1. Extract posting & settlement data (mock dataset).
-2. Transform into required format (CSV/XML).
+2. Transform into required format (CSV).
 3. Transmit securely to a mock SFTP server.
 4. Log success/failure and generate compliance audit trail.
 
